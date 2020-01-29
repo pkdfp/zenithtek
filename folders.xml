@@ -12,6 +12,8 @@
    <Folder Name="Watch (for debugging)">
       <File Name="Soft Scope.SS5"/>
    </Folder>
+   <Program Name="test01"/>
+   <Program Name="test02"/>
    <File Name="Initial values.RCP"/>
    <Binding/>
    <GlobalDef/>

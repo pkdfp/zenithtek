@@ -52,5 +52,7 @@
       <pou name="pShutDown" sect="end" lge="ST"/>
       <pou name="pOnDivZero" sect="end" lge="ST"/>
       <pou name="pOnBadIndex" sect="end" lge="ST"/>
+      <pou name="test01" sect="end" lge="ST"/>
+      <pou name="test02" sect="end" lge="FBD"/>
    </poulist>
 </K5project>
