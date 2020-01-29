@@ -48,6 +48,8 @@
    </libraries>
    <poulist>
       <pou name="Main" sect="begin" lge="FBD"/>
+      <pou name="test01" sect="begin" lge="ST"/>
+      <pou name="test02" sect="begin" lge="FBD"/>
       <pou name="pStartup" sect="end" lge="ST"/>
       <pou name="pShutDown" sect="end" lge="ST"/>
       <pou name="pOnDivZero" sect="end" lge="ST"/>
