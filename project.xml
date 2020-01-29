@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<K5project version="1.1">
+   <settings>
+      <triggering cycletiming="0"/>
+      <compiler>
+         <cmpoptions>
+            <opt name="simul" value="ON"/>
+            <opt name="lock" value="NONE"/>
+            <opt name="mapuint" value="ON"/>
+            <opt name="debug" value="ON"/>
+            <opt name="checksybconflicts" value="ON"/>
+         </cmpoptions>
+         <cmpsimulcode>
+            <opt name="target" value="T5SIMUL"/>
+            <opt name="suffix" value=".XWS"/>
+            <opt name="motorolaendian" value="FALSE"/>
+            <opt name="t5style" value="ON"/>
+         </cmpsimulcode>
+         <cmptargetcode>
+            <opt name="target" value="T5RTI"/>
+            <opt name="suffix" value=".XTI"/>
+            <opt name="motorolaendian" value="FALSE"/>
+            <opt name="t5style" value="ON"/>
+            <opt name="comment" value="Straton T5 runtime (Intel like byte ordering)"/>
+            <opt name="configname" value="T5RTI"/>
+         </cmptargetcode>
+      </compiler>
+      <onlinechange>
+         <opt name="enable" value="0"/>
+         <opt name="size_d8" value="0"/>
+         <opt name="size_d16" value="0"/>
+         <opt name="size_d32" value="0"/>
+         <opt name="size_d64" value="0"/>
+         <opt name="size_tmr" value="0"/>
+         <opt name="size_actmr" value="0"/>
+         <opt name="size_str" value="0"/>
+         <opt name="size_strbuf" value="0"/>
+         <opt name="size_fbi" value="0"/>
+         <opt name="size_fbibuf" value="0"/>
+         <opt name="size_publish" value="0"/>
+         <opt name="size_xv" value="0"/>
+         <opt name="size_ct" value="0"/>
+         <opt name="size_pou" value="0"/>
+      </onlinechange>
+   <onlinecsts/>
+   </settings>
+   <libraries>
+   </libraries>
+   <poulist>
+      <pou name="Main" sect="begin" lge="FBD"/>
+      <pou name="pStartup" sect="end" lge="ST"/>
+      <pou name="pShutDown" sect="end" lge="ST"/>
+      <pou name="pOnDivZero" sect="end" lge="ST"/>
+      <pou name="pOnBadIndex" sect="end" lge="ST"/>
+   </poulist>
+</K5project>
