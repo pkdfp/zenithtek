@@ -6,7 +6,6 @@
          </vargroup>
 <defines name="pOnBadIndex"></defines>
          <sourceSTIL>// pOnBadIndex: called in case of array index out of bounds
-
          </sourceSTIL>
       </pou>
    </programs>
