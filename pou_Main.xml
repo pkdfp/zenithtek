@@ -6,6 +6,8 @@
             <var name="NewVar" type="BOOL"/>
             <var name="NewVar1" type="BOOL"/>
             <var name="NewVar2" type="BOOL"/>
+            <var name="NewVar3" type="BOOL"/>
+            <var name="NewVar4" type="BOOL"/>
          </vargroup>
 <defines name="Main"></defines>
          <sourceFBD sxcell="16" sycell="16">
